@@ -28,13 +28,13 @@ font-family: Roboto, sans-serif;
   padding: 0;
 }
 
-.nav_list{
+.nav__list{
   display: flex;
   text-transform: uppercase;
   list-style: none;
 }
 
-.nav_link{
+.nav__link{
   display: inline-block;
 
   height: 60px;
@@ -45,7 +45,7 @@ font-family: Roboto, sans-serif;
   text-decoration: none;
 }
 
-.nav_item{
+.nav__item{
   margin-right: 20px;
 }
 
