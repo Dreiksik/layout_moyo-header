@@ -1,7 +1,7 @@
 /* styles go here */
 body{
-font-family: Roboto, sans-serif;
 margin: 0;
+font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -19,8 +19,8 @@ margin: 0;
 
 header{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav{
@@ -30,17 +30,18 @@ nav{
 
 ul{
   display: flex;
+  text-transform: uppercase;
   list-style: none;
-   text-transform: uppercase;
 }
 
 a{
   display: inline-block;
 
-  text-decoration: none;
-  color: #000;
-
   height: 60px;
+
+  color: #000;
+  text-decoration: none;
+
   line-height: 60px;
 }
 
