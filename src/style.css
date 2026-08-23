@@ -17,24 +17,24 @@ font-family: Roboto, sans-serif;
   --blue-color: #00ACDC;
 }
 
-header{
+.header{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav{
+.nav{
   margin: 0;
   padding: 0;
 }
 
-ul{
+.nav_list{
   display: flex;
   text-transform: uppercase;
   list-style: none;
 }
 
-a{
+.nav_link{
   display: inline-block;
 
   height: 60px;
@@ -45,7 +45,7 @@ a{
   text-decoration: none;
 }
 
-li{
+.nav_item{
   margin-right: 20px;
 }
 
