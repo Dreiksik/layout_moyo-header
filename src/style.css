@@ -1,6 +1,6 @@
 /* styles go here */
 body{
-font-family: 'Roboto', sans-serif;
+font-family: Roboto, sans-serif;
 margin: 0;
 }
 
@@ -24,7 +24,6 @@ header{
 }
 
 nav{
-  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -36,8 +35,11 @@ ul{
 }
 
 a{
-  display: flex;
+  display: inline-block;
+
   text-decoration: none;
+  color: #000;
+
   height: 60px;
   line-height: 60px;
 }
@@ -46,8 +48,8 @@ li{
   margin-right: 20px;
 }
 
-li:last-child{
-  margin-right: 10px;
+li:not(:last-child){
+  margin-right: 20px;
 }
 
 a:hover{
